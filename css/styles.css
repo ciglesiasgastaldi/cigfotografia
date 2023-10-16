@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub&display=swap");
+
+/* Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout */
+body {
+    font-family: "Krub", sans-serif;
+    background-image: url("/assets/bg2.jpg");
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    min-height: 100vh; 
+}
+
+section {
+    padding: 1rem;
+    margin-top: 30px;
+    min-height: 10rem;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.img-logo{
+    width: 10rem;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.img-logo, .nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-left: 40rem;
+}
+
+.nav-list li{
+    margin: 1.5rem;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.nav-list a:hover{
+    color: #f7204f;
+}
+.menu-toggle{
+    display: none;
+}
+@media (max-width: 768px){
+    .img-logo{
+        width: 7rem;
+    }
+    .nav-list{
+        display: none;
+    }
+    .menu-toggle{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/* Inicio */
+h1, h2 {
+    color: #ffffff;
+    text-align: center;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+p{
+    color: #ffffff;
+    text-align: center;
+    margin: 1rem; 
+}
+
+.d-block{
+    width: 35rem;
+    margin: 1.5rem;
+}
+
+/* Nosotros */
+.p-nosotros {
+    color: #ffffff;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+/* Servicios */
+.servicio {
+    background-color: #857f7f4a; 
+    transition: transform .2s;
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(255 255 255); 
+    margin: 20px; 
+}
+.servicio:hover{
+    transform: scale(1.2);
+}
+
+h3, h4{
+    color: #ffffff;
+}
+
+/* Galería */
+
+.div-galeria{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 1rem;
+}
+.img-galeria{
+    overflow: hidden;
+    object-fit: cover;
+    transition: transform .2s;
+    width: 250px;
+    height: 250px;
+}
+.img-galeria:hover{
+    transform: scale(1.2);
+}
+@media (max-width: 1024px) {
+    .div-galeria{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .img-galeria{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .div-galeria{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .img-galeria{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Contacto */
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.data .mapa iframe {
+    max-width: 250px;
+    max-height: 250px; 
+}
+
+form {
+    padding: 15px;
+    background-color: #857f7f4a;
+    box-shadow: 0 0 10px rgba(255 255 255);
+    border-radius: 15px;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 15px; 
+}
+
+label{
+    color:white;
+}
+
+    form div {
+        padding: 5px 0; 
+    }
+        form div .text-area {
+          height: 180px;
+         }
+      form input, form textarea {
+        border-radius: 5px;
+        width: 90%;
+        background-color: #ffffff;
+        padding: 5px;
+        text-align: center;
+     }
+      form .button {
+        border-radius: 5px;
+        background-color: #ffffff;
+        padding: 5px; 
+    }
+
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+
+
