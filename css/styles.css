@@ -105,6 +105,11 @@ p{
     width: 35rem;
     margin: 1.5rem;
 }
+@media (max-width: 768px){
+    .d-block{
+        width: 25rem;
+    }
+}
 
 /* Nosotros */
 .p-nosotros {
@@ -212,6 +217,12 @@ label{
         border-radius: 5px;
         background-color: #ffffff;
         padding: 5px; 
+    }
+    @media (max-width: 768px){
+        .wrapper{
+            flex-direction: column;
+        }
+        
     }
 
 .footer {
