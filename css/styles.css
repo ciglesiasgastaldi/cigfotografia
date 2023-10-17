@@ -191,7 +191,7 @@ form {
     background-color: #857f7f4a;
     box-shadow: 0 0 10px rgba(255 255 255);
     border-radius: 15px;
-    width: fit-content;
+    width: 30rem;
     margin: 30px auto;
     padding: 15px; 
 }
@@ -221,6 +221,9 @@ label{
     @media (max-width: 768px){
         .wrapper{
             flex-direction: column;
+        }
+        form{
+            width: fit-content;
         }
         
     }
