@@ -121,10 +121,6 @@ nav #icon{
 
 }
 
-
-
-
-
 /* Inicio */
 h1, h2 {
     color: #ffffff;
@@ -143,7 +139,7 @@ p{
     width: 35rem;
     margin: 1.5rem;
 }
-@media (max-width: 768px){
+@media (max-width: 909px){
     .d-block{
         width: 25rem;
     }
@@ -201,7 +197,7 @@ h3, h4{
         height: auto;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 909px) {
     .div-galeria{
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
@@ -211,7 +207,6 @@ h3, h4{
         height: auto;
     }
 }
-
 
 /* Contacto */
 .wrapper{
@@ -256,7 +251,7 @@ label{
         background-color: #ffffff;
         padding: 5px; 
     }
-    @media (max-width: 768px){
+    @media (max-width: 909px){
         .wrapper{
             flex-direction: column;
         }
