@@ -10,7 +10,7 @@
 /* Layout */
 body {
     font-family: "Krub", sans-serif;
-    background-image: url("/assets/bg2.jpg");
+    background-image: url("../assets/bg2.jpg");
     height: 100vh;
     background-position: top center;
     background-size: cover;
