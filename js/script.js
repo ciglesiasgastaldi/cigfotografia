@@ -16,7 +16,7 @@ navLinks.forEach((link) =>{
     });
 });
 
-// formulario.js
+// formulario de contacto
 
 document.addEventListener("DOMContentLoaded", function() {
   const formulario = document.querySelector("#contacto form");
